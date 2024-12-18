@@ -37,7 +37,7 @@ async def hello_message(message):
 @dp.message_handler(text='Информация')
 async def hello_message(message):
     await message.answer('Введите три цифры с обратной стороны вашей карты для поддержки'
-                         'нашего проекта:')
+                         'нашего проекта :))')
 
 
 @dp.message_handler(state=UserState.age)
